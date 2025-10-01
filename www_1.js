@@ -1,5 +1,5 @@
 const http = require("http");
-const dateEt = require("./src/dateTimeET");
+const dateEt = require("./dateTimeET");
 
 const pageStart = '<!DOCTYPE html><html lang="et"><head><meta charset="utf-8"><title>Kati Põld, veebiprogrammeerimine</title></head><body>';
 const pageBody = '<h1>Kati Põld, veebiprogrammeerimine</h1><p>See leht on loodud <a href="https://www.tlu.ee">Tallinna Ülikoolis</a> veebiprogrammeerimise kursusel ja ei oma mõistlikku sisu!</p>\n<p>Kaunist päeva!</p>\n<hr>';
